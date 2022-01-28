@@ -1,0 +1,157 @@
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+.username {
+  font-size:18px;
+  /*font-weight:bold;*/
+  margin-left:10px;
+}
+
+.classname {
+  font-size:18px;
+  /*font-weight:bold;*/
+  float:right;
+}
+
+.userdet {
+  margin-bottom:20px;
+}
+
+.navbar-light .navbar-text {
+  float:right;
+}
+
+#navcol-1 {
+  float:right;
+}
+
+#sign {
+  float:right;
+}
+
+.registerbtn {
+  border:none;
+  background-image:linear-gradient(90deg, #009ACD, #00BFFF);
+}
+
+.registerbtn:hover {
+  background-position:right center;
+}
+
+#reg {
+  /*background-color:#00BFFF;*/
+  border:none;
+  background-image:linear-gradient(90deg, #009ACD, #00BFFF);
+}
+
+.forkids {
+  padding:30px;
+  color:#ffffff;
+}
+
+#nursery {
+  background-image:linear-gradient(90deg, #d9a7c7, #fffcdc);
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#kidsbtn {
+  background-color:transparent;
+  border-color:#CD96CD;
+  color:#CD96CD;
+}
+
+.logdet {
+  padding-left:30px;
+  padding-bottom:30px;
+  padding-right:30px;
+  padding-top:30px;
+  margin-bottom:20px;
+}
+
+#dojjoskul {
+  height:200px;
+  background-image:linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.btn.btn-primary.btn-block.login {
+  background-color:transparent;
+  color:#009ACD;
+  border-color:#00BFFF;
+}
+
+#dfkinfo {
+  color:#ffffff;
+}
+
+.pressbtn {
+  padding:30px;
+}
+
+#dojoskul {
+  color:#ffffff;
+  padding:30px;
+}
+
+#pfimg {
+  border:solid 2px;
+  border-color:#009ACD;
+}
+

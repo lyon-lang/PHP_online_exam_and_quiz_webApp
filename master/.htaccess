@@ -1,0 +1,27 @@
+RewriteEngine On
+
+#Rewrite for enroll_exam.php
+RewriteRule ^enrolled enroll_exam.php [NC,L]
+
+#Rewrite for index.php
+RewriteRule ^home index.php [NC,L]
+
+#Rewrite for logout.php
+RewriteRule ^logout logout.php [NC,L]
+
+#Rewrite for login.php
+RewriteRule ^login login.php [NC,L]
+
+#Rewrite for user.php
+RewriteRule ^users user.php [NC,L]
+
+#Rewrite for exam.php
+RewriteRule ^post_quiz exam.php [NC,L]
+
+#Rewrite for register.php
+RewriteRule ^register register.php [NC,L]
+
+
+#Rewrite for profile.php?username=xxxxx
+#RewriteRule ^profile/([0-9a-zA-Z]+) profile.php?username=$1 [NC,L]
+#RewriteRule ^([^/]+)/? profile.php?username=$1 [L,QSA]
